@@ -1,0 +1,1 @@
+from .operadora import OperadoraViewSet
