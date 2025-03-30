@@ -6,4 +6,4 @@ class OperadoraViewSet(viewsets.ModelViewSet):
     queryset = Operadora.objects.all()
     serializer_class = OperadoraSerializer
     filter_backends = [filters.SearchFilter]
-    search_fields = ['razao_social', 'nome_fantasia', 'CNPJ', 'modalidade']
+    search_fields = ['razao_social', 'nome_fantasia', 'cnpj', 'modalidade']
