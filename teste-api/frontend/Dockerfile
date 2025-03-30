@@ -3,8 +3,7 @@ FROM node:18 AS builder
 WORKDIR /app
 
 COPY package*.json ./
-COPY tsconfig.json ./
-COPY vite.config.ts ./
+COPY vite.config.js ./
 
 RUN npm ci --include=dev
 

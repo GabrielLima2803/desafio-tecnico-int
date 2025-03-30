@@ -4,7 +4,8 @@
 !entrypoint.sh
 !static/
 !media/
-!seu_projeto/
+!config/
+!core/
 
 **/__pycache__/
 **/*.py[cod]
@@ -18,7 +19,6 @@
 **/.github/
 **/.gitignore
 **/.dockerignore
-**/db.sqlite3
 **/logs/
 **/*.log
 **/tmp/
