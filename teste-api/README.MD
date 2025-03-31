@@ -2,6 +2,12 @@
 
 Este projeto é uma aplicação full-stack que utiliza Django no backend e um frontend moderno (Vue) servido via Nginx. Tudo é containerizado com Docker para fácil execução.
 
+## Documentação no Postman
+
+Acesse a documentação completa da API através do link abaixo:
+
+[Visualizar Documentação no Postman](https://documenter.getpostman.com/view/29574069/2sB2cPkRRj)
+
 ## 📋 Pré-requisitos
 
 - Docker (v20.10+)
