@@ -2,7 +2,38 @@
 
 Este guia irá te ajudar a configurar e executar o MySQL dentro de um container Docker, e em seguida realizar consultas (queries) para interagir com o banco de dados.
 
-## 1. Subindo o Container MySQL
+## 1. Descompactando os arquivos CSV
+
+Extraia os arquivos CSV referentes aos anos de 2023 e 2024:
+
+1. **Ano de 2023**
+
+Navegue até a pasta onde está o zip
+
+```bash
+cd data/2023
+```
+
+Extraia
+
+```bash
+unzip CSVDoAnoDe2023.zip
+```
+2. **Ano de 2024**
+
+Navegue até a pasta onde está o zip
+
+```bash
+cd data/2024
+```
+
+Extraia
+
+```bash
+unzip CSVDoAnoDe2024.zip
+```
+
+## 2. Subindo o Container MySQL
 
 ### Passo 1: Preparar o Ambiente
 
